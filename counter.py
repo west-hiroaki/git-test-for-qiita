@@ -7,6 +7,7 @@ def print_number():
     """
     1〜5までの数字を表示する
     """
+    print 'start.'
     print 1
     print 2
     print 3
@@ -17,6 +18,7 @@ def print_number():
     print 8
     print 9
     print 10
+    print 'end.'
 
 
 # 数字を表示する
