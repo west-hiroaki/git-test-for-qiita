@@ -1,0 +1,3 @@
+[submodule "lib/utils"]
+	path = lib/utils
+	url = https://github.com/west-hiroaki/git-submodule-test-for-qiita.git
