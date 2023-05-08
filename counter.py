@@ -3,25 +3,19 @@ from __future__ import absolute_import
 from __future__ import unicode_literals
 
 
-def print_number(upper_count):
+def print_number():
     """
-    1から引数の値まで数字を表示する
-
-    :type upper_count: int
+    1~10までの数字を表示する
     """
-    if not upper_count:
-        raise ValueError
+    print "1"
+    print "2"
+    print "3"
+    print "4"
+    print "5"
+    print "6"
+    print "7"
+    print "8"
+    print "9"
+    print "10"
 
-    print 'start.'
-
-    for i in xrange(upper_count):
-        print i + 1
-
-    print 'end.'
-
-
-# 1から10までの数字を表示する
-print_number(10)
-
-# 1から20までの数字を表示する
-print_number(20)
+print_number()
